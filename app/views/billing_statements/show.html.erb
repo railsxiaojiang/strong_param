@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @billing_statement.user %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @billing_statement.title %>
+</p>
+
+<%= link_to 'Edit', edit_billing_statement_path(@billing_statement) %> |
+<%= link_to 'Back', billing_statements_path %>
